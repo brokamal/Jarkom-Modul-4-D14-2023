@@ -9,6 +9,10 @@
 - Mohammad Kamal (5025211180)
 - Darren Prasetya (5025211162)
 
+# Daftar Isi
+1. [CPT - VLSM](#cpt---vlsm)
+2. [GNS3 - CIDR](#gns3---cidr)
+
 ## Topologi
 ![alt text](images/topo.png)
 
