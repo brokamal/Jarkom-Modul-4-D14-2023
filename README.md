@@ -54,10 +54,10 @@ IP yang digunakan  dari sumber router merupakan increment dari IP subnet tersebu
 
 
 ### Konfiguras Router lain
-![[Screenshot 2023-12-04 at 11.54.47.png]]
+![alt text](images/ag.png)
 
 
-![[Screenshot 2023-12-04 at 11.55.01.png]]
+![alt text](images/ba.png)
 
 Konfigurasi pada router lain. FastEthernet dan Ethernet menuju kepada router lain. Kemudian routing menuju subnet yang terhubung dengan router yang terhubung kepada router tersebut. 
 Lalu default getaway menuju router yang menuju router utama.
@@ -66,7 +66,7 @@ Lalu default getaway menuju router yang menuju router utama.
 
 ### Konfigurasi Client
 
-![[Screenshot 2023-12-04 at 12.01.05.png]]
+![alt text](images/bb.png)
 
 Pada client, konfigurasi IP address merupakan double increment dari Network ID. Default getaway merupakan Address dari gatewaya client tersebut. Yaitu increment satu dari network ID.
 
@@ -74,7 +74,8 @@ Pada client, konfigurasi IP address merupakan double increment dari Network ID. 
 
 ### Testing
 
-![[Screenshot 2023-12-04 at 12.12.56.png]]![[Screenshot 2023-12-04 at 12.14.01.png]]
+![alt text](images/bc.png)
+![alt text](images/bd.png)
 
 Coba testing dari Client Lakekorridor kepada Royal capital. Pertama ping dari LK ke pada Frieren. Kemudian ping Frieren ke Aura. Ping Aura ke Denken. Kemudian ping Royal Capital dari LK. 
 
