@@ -12,28 +12,26 @@
 ## Topologi CPT 
 Topologi VLSM
 
-
-![[Pasted image 20231204114157.png]]gambar1
-
-![alt text](images/aa.png)
+![alt text}(images/topo.png)
 
 ## Rute 
 
 ![[Screenshot 2023-12-04 at 11.45.26.png]] gambar2
 
  
+![alt text](images/aa.png)
 
 
 
 ## Pembagian IP VLSM
- 
+  
+![alt text](images/ab.png)
 
-![[Screenshot 2023-12-04 at 11.47.38.png]]
-gambar3
 
 ## VLSM Tree
 
-![[Tree2.png]]
+![alt text](images/tree2.png)
+
 
 
 
@@ -41,11 +39,13 @@ gambar3
 ## Konfigurasi VLSM CPT
 
 ### Setting Physical Router
-![[Screenshot 2023-12-04 at 11.51.09.png]]
+![alt text](images/ac.png)
 
 ### Setting Configurasi Router Aura 
-![[Screenshot 2023-12-04 at 11.51.48.png]]
-![[Screenshot 2023-12-04 at 11.52.11.png]]![[Screenshot 2023-12-04 at 11.52.26.png]]
+![alt text](images/ad.png)
+![alt text](images/ae.png)
+![alt text](images/af.png)
+
 
 Setting FastEthernet dan Ethernet pada router utama (aura) mengarah ke pada router lain. 
 Lalu Routing Static menuju kepada semua subnet.
