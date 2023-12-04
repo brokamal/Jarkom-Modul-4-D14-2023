@@ -91,9 +91,6 @@ Coba testing dari Client Lakekorridor kepada Royal capital. Pertama ping dari LK
 ## Konfigurasi GNS3
 ### Aura
 ```
-auto lo
-iface lo inet loopback
-
 auto eth0
 iface eth0 inet dhcp
 
@@ -109,7 +106,7 @@ netmask 255.255.255.252
 
 auto eth3
 iface eth3 inet static
-address 192.198.192.1
+address 192.198.192.129
 netmask 255.255.255.252
 ```
 ### Frieren
@@ -136,18 +133,15 @@ netmask 255.255.255.224
 
 ### Denken
 ```
-auto lo
-iface lo inet loopback
-
 auto eth0
 iface eth0 inet static
-address 192.198.192.2
+address 192.198.192.130
 netmask 255.255.255.252
-gateway 192.198.192.1
+gateway 192.198.192.129
 
 auto eth1
 iface eth1 inet static
-address 192.198.192.5
+address 192.198.192.1
 netmask 255.255.255.128
 ```
 
@@ -164,7 +158,7 @@ gateway 192.198.176.1
 
 auto eth1
 iface eth1 inet static
-address 192.198.128.1
+address 192.198.129.1
 netmask 255.255.255.252
 
 auto eth2
@@ -187,18 +181,18 @@ netmask 255.255.255.248
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.192.6
+address 192.198.192.2
 netmask 255.255.255.128
-gateway 192.198.192.5
+gateway 192.198.192.1
 ```
 
 ### WilleRegion
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.192.7
+address 192.198.192.4
 netmask 255.255.255.128
-gateway 192.198.192.5
+gateway 192.198.192.2
 ```
 
 ### LakeKorridor
@@ -272,7 +266,7 @@ netmask 255.255.252.0
 gateway 192.198.0.1
 ```
 
-### ApertiRegion
+### ApettitRegion
 ```
 auto eth0
 iface eth0 inet static
@@ -294,7 +288,7 @@ gateway 192.198.16.25
 
 auto eth1
 iface eth1 inet static
-address 192.198.16.17
+address 192.198.16.1
 netmask 255.255.255.248
 ```
 
@@ -302,14 +296,9 @@ netmask 255.255.255.248
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.16.18
+address 192.198.16.2
 netmask 255.255.255.248
-gateway 192.198.16.17
-
-auto eth1
-iface eth1 inet static
-address 192.198.144.1
-netmask 255.255.255.248
+gateway 192.198.16.1
 ```
 
 ### Richter
@@ -374,9 +363,9 @@ gateway 192.198.162.1
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.162.3
+address 192.198.160.2
 netmask 255.255.255.0
-gateway 192.198.162.1
+gateway 192.198.160.1
 ```
 
 ### Linie
@@ -386,18 +375,18 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet static
-address 192.198.128.2
+address 192.198.129.2
 netmask 255.255.255.252
-gateway 192.198.128.1
+gateway 192.198.129.1
 
 auto eth1
 iface eth1 inet static
-address 192.198.136.1
+address 192.198.130.1
 netmask 255.255.255.252
 
 auto eth2
 iface eth2 inet static
-address 192.198.128.5
+address 192.198.128.1
 netmask 255.255.255.0
 ```
 
@@ -405,9 +394,9 @@ netmask 255.255.255.0
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.128.6
+address 192.198.128.2
 netmask 255.255.255.0
-gateway 192.198.128.5
+gateway 192.198.128.1
 ```
 
 ### Lawine
@@ -417,13 +406,13 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet static
-address 192.198.136.2
+address 192.198.130.2
 netmask 255.255.255.252
-gateway 192.198.136.1
+gateway 192.198.130.1
 
 auto eth1
 iface eth1 inet static
-address 192.198.132.1
+address 192.198.136.1
 netmask 255.255.255.192
 ```
 
@@ -431,9 +420,9 @@ netmask 255.255.255.192
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.132.2
+address 192.198.136.2
 netmask 255.255.255.192
-gateway 192.198.132.1
+gateway 192.198.136.1
 ```
 
 ### Heiter
@@ -443,13 +432,13 @@ iface lo inet loopback
 
 auto eth0
 iface eth0 inet static
-address 192.198.132.3
+address 192.198.136.3
 netmask 255.255.255.192
-gateway 192.198.132.1
+gateway 192.198.136.1
 
 auto eth1
 iface eth1 inet static
-address 192.198.132.65
+address 192.198.132.1
 netmask 255.255.252.0
 ```
 
@@ -457,16 +446,18 @@ netmask 255.255.252.0
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.132.66
+address 192.198.132.2
 netmask 255.255.252.0
+gateway 192.198.132.1
 ```
 
 ### RiegelCanyon
 ```
 auto eth0
 iface eth0 inet static
-address 192.198.132.67
+address 192.198.132.3
 netmask 255.255.252.0
+gateway 192.198.132.1
 ```
 
 ## Routing CIDR
