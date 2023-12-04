@@ -15,7 +15,7 @@ Topologi VLSM
 
 ![[Pasted image 20231204114157.png]]gambar1
 
-![alt text](aa)
+![alt text](images/aa.png)
 
 ## Rute 
 
