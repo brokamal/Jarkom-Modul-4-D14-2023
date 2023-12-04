@@ -12,11 +12,11 @@
 ## Topologi CPT 
 Topologi VLSM
 
-![alt text}(images/topo.png)
+![alt text](images/topo.png)
 
 ## Rute 
 
-![[Screenshot 2023-12-04 at 11.45.26.png]] gambar2
+
 
  
 ![alt text](images/aa.png)
@@ -30,7 +30,7 @@ Topologi VLSM
 
 ## VLSM Tree
 
-![alt text](images/tree2.png)
+![alt text](images/Tree2.png)
 
 
 
