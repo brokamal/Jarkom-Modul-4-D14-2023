@@ -1,6 +1,3 @@
-# Liat apa 😄
-
-
 
 # Laporan Praktikum Jaringan Komputer Modul 4 D14 2023 
 
